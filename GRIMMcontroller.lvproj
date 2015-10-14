@@ -18,6 +18,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ExtractMeasurementDataFromCOMbuffer.vi" Type="VI" URL="../ExtractMeasurementDataFromCOMbuffer.vi"/>
 		<Item Name="GRIMMcontrollerVI.vi" Type="VI" URL="../GRIMMcontrollerVI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

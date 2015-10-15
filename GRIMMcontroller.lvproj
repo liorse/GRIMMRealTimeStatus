@@ -19,9 +19,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ExtractMeasurementDataFromCOMbuffer.vi" Type="VI" URL="../ExtractMeasurementDataFromCOMbuffer.vi"/>
+		<Item Name="ExtractStatusFromCOMbuffer.vi" Type="VI" URL="../ExtractStatusFromCOMbuffer.vi"/>
 		<Item Name="GRIMMcontrollerVI.vi" Type="VI" URL="../GRIMMcontrollerVI.vi"/>
+		<Item Name="GRIMMmeasurementCluster.ctl" Type="VI" URL="../GRIMMmeasurementCluster.ctl"/>
+		<Item Name="GRIMMmeasurementEnum.ctl" Type="VI" URL="../GRIMMmeasurementEnum.ctl"/>
+		<Item Name="GRIMMMeasurementGFV.vi" Type="VI" URL="../GRIMMMeasurementGFV.vi"/>
+		<Item Name="GRIMMStatusCluster.ctl" Type="VI" URL="../GRIMMStatusCluster.ctl"/>
+		<Item Name="GRIMMstatusEnum.ctl" Type="VI" URL="../GRIMMstatusEnum.ctl"/>
+		<Item Name="GRIMMstatusGFV.vi" Type="VI" URL="../GRIMMstatusGFV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
